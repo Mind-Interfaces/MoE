@@ -52,5 +52,5 @@ moe = MixtureOfExperts(num_experts)
 user_input = torch.rand(5, 10)
 
 # Forward pass
-output = moe(input)
+output = moe(user_input)
 print(output)
