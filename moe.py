@@ -49,7 +49,7 @@ num_experts = 16
 moe = MixtureOfExperts(num_experts)
 
 # Sample input for example. Batch size = 5, input size = 10
-user_input = torch.rand(5, 10)
+user_input = torch.rand(1, 10)
 
 # Forward pass
 output = moe(user_input)
